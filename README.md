@@ -3,8 +3,6 @@ TimeZone Converter for Alfred
 
 TimeZone Converter converts time from a location to a destination
 
-Converts time from one location to a destination
-
 Requires: 
 =========
 - JSON Helper from Mousedown: http://www.mousedown.net/mouseware/JSONHelper.html
