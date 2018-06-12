@@ -411,8 +411,10 @@ Requires:
 	<dict>
 		<key>1A1938C9-D7BF-4E9F-B0CC-B4099AB87300</key>
 		<dict>
+			<key>note</key>
+			<string>calculate time zone difference and display it</string>
 			<key>xpos</key>
-			<integer>870</integer>
+			<integer>920</integer>
 			<key>ypos</key>
 			<integer>240</integer>
 		</dict>
@@ -436,6 +438,8 @@ Requires:
 		</dict>
 		<key>51D941B4-A9A4-42F9-A6F8-E042E18D4E1D</key>
 		<dict>
+			<key>note</key>
+			<string>search locations origin and destination</string>
 			<key>xpos</key>
 			<integer>170</integer>
 			<key>ypos</key>
@@ -443,13 +447,17 @@ Requires:
 		</dict>
 		<key>568FAFC6-2231-4348-A8D7-8393885FA1C8</key>
 		<dict>
+			<key>note</key>
+			<string>get time now</string>
 			<key>xpos</key>
-			<integer>720</integer>
+			<integer>750</integer>
 			<key>ypos</key>
 			<integer>240</integer>
 		</dict>
 		<key>66449BBE-0DF6-4575-95A2-26E299B15AA0</key>
 		<dict>
+			<key>note</key>
+			<string>dispatcher to proceed or call external trigger</string>
 			<key>xpos</key>
 			<integer>350</integer>
 			<key>ypos</key>
@@ -457,13 +465,21 @@ Requires:
 		</dict>
 		<key>9A026A39-9AE3-4F71-B20F-2F62D2189C0D</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>set env variable "converted"</string>
 			<key>xpos</key>
-			<integer>620</integer>
+			<integer>650</integer>
 			<key>ypos</key>
 			<integer>270</integer>
 		</dict>
 		<key>A613166F-B854-42D3-AF13-D77ECD70E938</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>note</key>
+			<string>proceed if query is not empty</string>
 			<key>xpos</key>
 			<integer>530</integer>
 			<key>ypos</key>
@@ -483,7 +499,7 @@ Requires:
 		<string>TranslatorDBAPIKey</string>
 	</array>
 	<key>version</key>
-	<string>1.1</string>
+	<string>1.1.1</string>
 	<key>webaddress</key>
 	<string></string>
 </dict>
